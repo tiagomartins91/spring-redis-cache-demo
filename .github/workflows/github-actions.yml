@@ -23,7 +23,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: jar-artifact
-          path: target
+          path: target/
           retention-days: 1
   docker-build:
     runs-on: ubuntu-latest
