@@ -1,8 +1,3 @@
-# Read Me First
-The following was discovered as part of building this project:
-
-* The original package name 'com.tamj.redis-cache-demo' is invalid and this project uses 'com.tamj.rediscachedemo' instead.
-
 # Getting Started
 
 ### Reference Documentation
@@ -40,7 +35,7 @@ $ docker-compose up -d
 $ docker-compose down
 ```
 
-## Clear cache
+### Clear cache
 
 ```bash
 $ docker exec -it redis-db redis-cli FLUSHALL
@@ -48,6 +43,5 @@ $ docker exec -it redis-db redis-cli FLUSHALL
 
 ### Useful links
 
-https://www.baeldung.com/spring-data-redis-tutorial
-https://www.digitalocean.com/community/tutorials/spring-boot-redis-cache
-
+* https://www.baeldung.com/spring-data-redis-tutorial
+* https://www.digitalocean.com/community/tutorials/spring-boot-redis-cache
